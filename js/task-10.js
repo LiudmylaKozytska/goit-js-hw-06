@@ -20,6 +20,12 @@ function createBoxes(amount) {
   boxCollection.append(...boxArr);
 }
 
+boxCollection.style.display = 'flex';
+boxCollection.style.alignItems = 'center';
+boxCollection.style.flexWrap = 'wrap';
+boxCollection.style.gap = '10px';
+
+
 function clearBoxes() {
   boxCollection.innerHTML = '';
   input.value = '';
