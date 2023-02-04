@@ -5,5 +5,9 @@ inputTextValidation.addEventListener('blur', event => {
         inputTextValidation.classList.remove('invalid');
         return inputTextValidation.classList.add('valid');
     }
+    inputTextValidation.classList.remove('valid');
     return inputTextValidation.classList.add('invalid');
 })
+
+console.log(inputTextValidation);
+

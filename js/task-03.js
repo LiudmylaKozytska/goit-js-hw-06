@@ -20,7 +20,7 @@ imagesList.style.alignItems = 'center';
 imagesList.style.justifyContent = 'space-between';
 
 const imageItem = ({url, alt}) => {
-  return `<li class="image__item"><img src="${url}" alt="${alt}" width=400></li>`;
+  return `<li class="image__item"><img src="${url}" alt="${alt}" width=400 height=270></li>`;
 };
 
 const newImagesList = images.map(imageItem).join(" ");
